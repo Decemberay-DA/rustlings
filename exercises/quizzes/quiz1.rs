@@ -11,6 +11,16 @@
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(quantity: u32) -> u32 {
+    // TODO: Fix the compiler error in the statement below.
+    let price = if quantity > 40 {
+        1
+    } else {
+        2
+    };
+
+    quantity * price
+}
 
 fn main() {
     // You can optionally experiment here.
